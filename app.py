@@ -3,6 +3,7 @@ import requests
 import os
 
 app = Flask(__name__)
+username = input("Ingrese su usuario de GitHub: ")
 
 @app.route('/')
 def home():
@@ -69,4 +70,5 @@ def get_github_repos(username):
         return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)  
+    app.run(debug=True, host='0.0.0.0', port=5000) 
+     

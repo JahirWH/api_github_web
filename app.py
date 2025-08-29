@@ -1,8 +1,16 @@
 import os
 from github import Github
+import requests
+from flask import Flask, jsonify, request, render_template
 # Solo para repos públicos, con límites de rate
+
 g = Github()
-repo = g.get_repo("JahirWH/Parrilla_amarilla")
+user = "JahirWH"
+repo = g.get_repo(user, "/Parrilla_amarilla")
+
+
+
+
 
 print(f"Nombre: {repo.name}")
 print(f"Descripción: {repo.description}")
@@ -16,3 +24,4 @@ print(f"Actualizado: {repo.updated_at}")
 print(f"Rama default: {repo.default_branch}")
 print(f"¿Es fork?: {repo.fork}")
 print(f"¿Es privado?: {repo.private}")
+

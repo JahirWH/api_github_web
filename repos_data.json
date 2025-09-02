@@ -1,0 +1,554 @@
+[
+  {
+    "nombre": "Parrilla_amarilla",
+    "descripcion": "Un patio bastante familiar de una serie amarilla que me encanta",
+    "url": "https://github.com/JahirWH/Parrilla_amarilla",
+    "lenguaje_principal": "JavaScript",
+    "lenguajes": {
+      "JavaScript": 29020,
+      "HTML": 1544,
+      "CSS": 136
+    },
+    "tamaño_kb": 24036,
+    "creado": "2025-04-27T16:04:27Z",
+    "actualizado": "2025-08-27T01:55:31Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "api_github_web",
+    "descripcion": "get all projects and export in json for web",
+    "url": "https://github.com/JahirWH/api_github_web",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 2234,
+      "JavaScript": 1997
+    },
+    "tamaño_kb": 5,
+    "creado": "2025-08-23T02:18:17Z",
+    "actualizado": "2025-09-02T22:23:23Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "PyShare",
+    "descripcion": "share files for python to iphone ",
+    "url": "https://github.com/JahirWH/PyShare",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 26349,
+      "HTML": 4393
+    },
+    "tamaño_kb": 578,
+    "creado": "2025-08-01T05:28:09Z",
+    "actualizado": "2025-08-23T02:14:14Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "cleaner_photo",
+    "descripcion": "Script to clean metadata and optimize JPG, PNG images and MKV videos by up to 60%",
+    "url": "https://github.com/JahirWH/cleaner_photo",
+    "lenguaje_principal": "Rust",
+    "lenguajes": {
+      "Rust": 17318
+    },
+    "tamaño_kb": 284,
+    "creado": "2025-07-11T23:30:39Z",
+    "actualizado": "2025-08-22T18:18:26Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "AdataVision",
+    "descripcion": "Gestor de contrasenas offline portable",
+    "url": "https://github.com/JahirWH/AdataVision",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 87249
+    },
+    "tamaño_kb": 40991,
+    "creado": "2025-05-14T05:05:54Z",
+    "actualizado": "2025-08-13T05:28:41Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Login_hacker_simulator",
+    "descripcion": "Pagina web simuladora de un hacker con interaciones",
+    "url": "https://github.com/JahirWH/Login_hacker_simulator",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 39972,
+      "CSS": 35521,
+      "PHP": 18500,
+      "JavaScript": 9415
+    },
+    "tamaño_kb": 35177,
+    "creado": "2022-02-01T22:59:21Z",
+    "actualizado": "2025-08-20T08:46:50Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Calculadora",
+    "descripcion": "practica",
+    "url": "https://github.com/JahirWH/Calculadora",
+    "lenguaje_principal": "Vala",
+    "lenguajes": {
+      "Vala": 2253
+    },
+    "tamaño_kb": 6,
+    "creado": "2025-02-12T02:49:30Z",
+    "actualizado": "2025-08-16T18:05:08Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "rebol_ia",
+    "descripcion": "Pagina web de ayuda sobre el cultivo de mini biomas con ayuda de la ia dar seguimiento personalizado a cada usuario",
+    "url": "https://github.com/JahirWH/rebol_ia",
+    "lenguaje_principal": "Astro",
+    "lenguajes": {
+      "Astro": 16654,
+      "JavaScript": 3996,
+      "CSS": 3969
+    },
+    "tamaño_kb": 1105,
+    "creado": "2025-02-22T01:07:53Z",
+    "actualizado": "2025-08-16T04:11:31Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "youtube-dowloader",
+    "descripcion": "my scrip para descargar videos de youtub",
+    "url": "https://github.com/JahirWH/youtube-dowloader",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 8774
+    },
+    "tamaño_kb": 4,
+    "creado": "2025-08-11T04:20:26Z",
+    "actualizado": "2025-08-16T04:04:23Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "mxsetup",
+    "descripcion": "setup mx linux my config with styles",
+    "url": "https://github.com/JahirWH/mxsetup",
+    "lenguaje_principal": "Shell",
+    "lenguajes": {
+      "Shell": 7647
+    },
+    "tamaño_kb": 7653,
+    "creado": "2025-08-02T04:45:30Z",
+    "actualizado": "2025-08-12T03:18:46Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "my_notes",
+    "descripcion": "mini app que te recuerda y organiza pendientes por hacer",
+    "url": "https://github.com/JahirWH/my_notes",
+    "lenguaje_principal": "Java",
+    "lenguajes": {
+      "Java": 3048
+    },
+    "tamaño_kb": 5,
+    "creado": "2025-08-08T04:10:58Z",
+    "actualizado": "2025-08-11T02:37:25Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "old-windows",
+    "descripcion": null,
+    "url": "https://github.com/JahirWH/old-windows",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 14656,
+      "JavaScript": 14373,
+      "CSS": 12155
+    },
+    "tamaño_kb": 896,
+    "creado": "2025-06-05T14:33:12Z",
+    "actualizado": "2025-08-06T19:14:12Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "DSKY-Sim",
+    "descripcion": "Simulador del DSKY",
+    "url": "https://github.com/JahirWH/DSKY-Sim",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 7263
+    },
+    "tamaño_kb": 10,
+    "creado": "2025-08-05T17:58:19Z",
+    "actualizado": "2025-08-05T23:18:08Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "analiser",
+    "descripcion": "Analiza formatos de audio y reconoce el tipo de ave, localmente, con ia en api",
+    "url": "https://github.com/JahirWH/analiser",
+    "lenguaje_principal": "Jupyter Notebook",
+    "lenguajes": {
+      "Jupyter Notebook": 7004
+    },
+    "tamaño_kb": 8,
+    "creado": "2025-05-05T23:11:18Z",
+    "actualizado": "2025-08-05T05:00:46Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "endless-sky",
+    "descripcion": "Space exploration, trading, and combat game.",
+    "url": "https://github.com/JahirWH/endless-sky",
+    "lenguaje_principal": null,
+    "lenguajes": {
+      "C++": 3233415,
+      "Python": 54682,
+      "CMake": 37034,
+      "GLSL": 27773,
+      "Shell": 12328,
+      "C": 8130,
+      "Roff": 5835
+    },
+    "tamaño_kb": 563398,
+    "creado": "2025-08-05T04:44:29Z",
+    "actualizado": "2025-08-05T04:44:29Z",
+    "rama_default": "master"
+  },
+  {
+    "nombre": "blog_del_novato",
+    "descripcion": "Manuales y guias de linux en ambientes probados",
+    "url": "https://github.com/JahirWH/blog_del_novato",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 15835,
+      "JavaScript": 7946
+    },
+    "tamaño_kb": 274,
+    "creado": "2025-07-10T01:02:44Z",
+    "actualizado": "2025-08-03T05:01:13Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "my_chillweb",
+    "descripcion": "Reprodcutor web online para poner de fondo de chill",
+    "url": "https://github.com/JahirWH/my_chillweb",
+    "lenguaje_principal": "JavaScript",
+    "lenguajes": {
+      "JavaScript": 17943,
+      "CSS": 15770,
+      "HTML": 529
+    },
+    "tamaño_kb": 99599,
+    "creado": "2025-04-18T12:50:41Z",
+    "actualizado": "2025-05-19T04:24:19Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Migestor",
+    "descripcion": "gestor de notas, tareas etc",
+    "url": "https://github.com/JahirWH/Migestor",
+    "lenguaje_principal": "Java",
+    "lenguajes": {
+      "Java": 1150
+    },
+    "tamaño_kb": 2,
+    "creado": "2025-07-27T05:14:53Z",
+    "actualizado": "2025-07-31T03:28:59Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "FiltraTodo",
+    "descripcion": "Filtra todo es una herramienta eficiente para filtrar y gestionar grandes volumenes de datos en bases de datos .(proceso)",
+    "url": "https://github.com/JahirWH/FiltraTodo",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 22780,
+      "Python": 11169
+    },
+    "tamaño_kb": 7314,
+    "creado": "2025-05-02T04:30:06Z",
+    "actualizado": "2025-07-29T05:34:51Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "WebTop",
+    "descripcion": "webtop es un visor de estadísticas del sistema en tiempo real",
+    "url": "https://github.com/JahirWH/WebTop",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 25544
+    },
+    "tamaño_kb": 30,
+    "creado": "2025-07-05T04:33:27Z",
+    "actualizado": "2025-07-26T03:43:25Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "mini-top",
+    "descripcion": "Mini visualizador para ver la cpu,disco,memoria,red de tu maquina",
+    "url": "https://github.com/JahirWH/mini-top",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 7140
+    },
+    "tamaño_kb": 407,
+    "creado": "2025-06-25T05:54:30Z",
+    "actualizado": "2025-07-25T18:18:41Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Inspector",
+    "descripcion": "Osint tool (👁️ phone-number tracker) ",
+    "url": "https://github.com/JahirWH/Inspector",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 12045
+    },
+    "tamaño_kb": 77,
+    "creado": "2025-07-17T17:40:05Z",
+    "actualizado": "2025-07-17T20:09:27Z",
+    "rama_default": "master"
+  },
+  {
+    "nombre": "SS_ConfiaChamba",
+    "descripcion": "Proyecto servicio social",
+    "url": "https://github.com/JahirWH/SS_ConfiaChamba",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 39769,
+      "Python": 24526,
+      "Shell": 823,
+      "Dockerfile": 537
+    },
+    "tamaño_kb": 68,
+    "creado": "2025-06-14T21:00:18Z",
+    "actualizado": "2025-07-03T02:16:24Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "hayfe",
+    "descripcion": "Aun hay fe en la humanidad?",
+    "url": "https://github.com/JahirWH/hayfe",
+    "lenguaje_principal": "Astro",
+    "lenguajes": {
+      "Astro": 15654,
+      "JavaScript": 223
+    },
+    "tamaño_kb": 57,
+    "creado": "2025-05-10T01:56:38Z",
+    "actualizado": "2025-07-01T06:03:09Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Web_galerry",
+    "descripcion": "Galería de fotos simple con un poco de JavaScript",
+    "url": "https://github.com/JahirWH/Web_galerry",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 27669,
+      "CSS": 23992,
+      "JavaScript": 7883,
+      "PHP": 3899
+    },
+    "tamaño_kb": 372,
+    "creado": "2024-11-11T02:53:50Z",
+    "actualizado": "2025-06-27T21:47:37Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Monito-li",
+    "descripcion": "aplicación web que muestre métricas de uso de un servidor Linux (CPU, RAM, procesos, carga, temperatura, etc.) en tiempo real o cuasi-tiempo real. Permite automatizar, visualizar e interactuar con datos técnicos desde un entorno gráfico minimalista y profesional.",
+    "url": "https://github.com/JahirWH/Monito-li",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 9125297,
+      "PowerShell": 8786,
+      "Shell": 3168,
+      "CSS": 2394,
+      "HTML": 1440,
+      "PHP": 1015,
+      "JavaScript": 687
+    },
+    "tamaño_kb": 6082,
+    "creado": "2025-04-13T19:18:12Z",
+    "actualizado": "2025-06-25T05:17:26Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Tron_Game_portafolio",
+    "descripcion": "Hecho con threejs para mi portafolio",
+    "url": "https://github.com/JahirWH/Tron_Game_portafolio",
+    "lenguaje_principal": "JavaScript",
+    "lenguajes": {
+      "JavaScript": 77797,
+      "HTML": 7352
+    },
+    "tamaño_kb": 9231,
+    "creado": "2025-05-17T20:38:06Z",
+    "actualizado": "2025-06-13T03:25:03Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "ark-web",
+    "descripcion": "Web organizadora de proyectos temas en form de juego rpg",
+    "url": "https://github.com/JahirWH/ark-web",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 16858,
+      "CSS": 8240
+    },
+    "tamaño_kb": 10873,
+    "creado": "2025-04-18T15:33:36Z",
+    "actualizado": "2025-06-08T16:35:24Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "modal-demo-spotter",
+    "descripcion": "demo basic",
+    "url": "https://github.com/JahirWH/modal-demo-spotter",
+    "lenguaje_principal": "CSS",
+    "lenguajes": {
+      "CSS": 12136,
+      "HTML": 11510,
+      "JavaScript": 1513
+    },
+    "tamaño_kb": 6,
+    "creado": "2025-06-03T21:48:37Z",
+    "actualizado": "2025-06-04T01:29:31Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "juegos.icu-demo",
+    "descripcion": "Demo preview website online with ejs and node",
+    "url": "https://github.com/JahirWH/juegos.icu-demo",
+    "lenguaje_principal": "EJS",
+    "lenguajes": {
+      "EJS": 26815,
+      "JavaScript": 5471,
+      "CSS": 2951
+    },
+    "tamaño_kb": 148,
+    "creado": "2025-05-30T18:26:16Z",
+    "actualizado": "2025-05-30T19:40:44Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "adata",
+    "descripcion": "Adata es un gestor de contraseñas en CSV con cifrado seguro, accesible solo con el usuario y la contraseña correctos.",
+    "url": "https://github.com/JahirWH/adata",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 26109
+    },
+    "tamaño_kb": 113,
+    "creado": "2024-11-01T15:31:08Z",
+    "actualizado": "2025-05-19T21:47:43Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Elecciones_2025_Ejercicio",
+    "descripcion": "Ejercicio",
+    "url": "https://github.com/JahirWH/Elecciones_2025_Ejercicio",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 6775,
+      "JavaScript": 4335
+    },
+    "tamaño_kb": 6,
+    "creado": "2025-05-06T21:30:58Z",
+    "actualizado": "2025-05-09T17:24:12Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Ucad",
+    "descripcion": "Pagina de informacion resumida sobre diversos temas",
+    "url": "https://github.com/JahirWH/Ucad",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 84507,
+      "CSS": 31464,
+      "JavaScript": 4065
+    },
+    "tamaño_kb": 477,
+    "creado": "2025-04-10T22:39:41Z",
+    "actualizado": "2025-05-02T01:06:03Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "iso_py",
+    "descripcion": "Mini iso, con un kernel ligero de tal forma que se ejecute un script python al correr el sistema en una usb",
+    "url": "https://github.com/JahirWH/iso_py",
+    "lenguaje_principal": "C",
+    "lenguajes": {
+      "C": 597,
+      "Makefile": 439,
+      "Linker Script": 223,
+      "Python": 64
+    },
+    "tamaño_kb": 34829,
+    "creado": "2025-03-20T15:02:14Z",
+    "actualizado": "2025-05-02T01:02:44Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "Snow-tree",
+    "descripcion": "Mini juego con javascript para portafolio web",
+    "url": "https://github.com/JahirWH/Snow-tree",
+    "lenguaje_principal": "JavaScript",
+    "lenguajes": {
+      "JavaScript": 8167,
+      "CSS": 5771,
+      "HTML": 1155
+    },
+    "tamaño_kb": 1145,
+    "creado": "2025-02-08T23:47:14Z",
+    "actualizado": "2025-04-26T22:29:22Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "WebPanda",
+    "descripcion": "Esta es mi web donde organizaba materias y cosas de interest personal (mi primera pagina)",
+    "url": "https://github.com/JahirWH/WebPanda",
+    "lenguaje_principal": "HTML",
+    "lenguajes": {
+      "HTML": 791989,
+      "CSS": 183907,
+      "PHP": 44895,
+      "JavaScript": 40941,
+      "Hack": 4146,
+      "Python": 1164
+    },
+    "tamaño_kb": 202082,
+    "creado": "2022-01-05T15:52:09Z",
+    "actualizado": "2025-04-21T00:13:26Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "PyExcelConvert",
+    "descripcion": "Un script en Python con Tkinter que convierte archivos TXT,CVS,PDF a  hojas de cálculo XLSX para Excel. Fácil de usar para organizar datos en tablas",
+    "url": "https://github.com/JahirWH/PyExcelConvert",
+    "lenguaje_principal": "Python",
+    "lenguajes": {
+      "Python": 7572
+    },
+    "tamaño_kb": 12622,
+    "creado": "2025-03-07T20:58:35Z",
+    "actualizado": "2025-04-04T03:38:25Z",
+    "rama_default": "main"
+  },
+  {
+    "nombre": "astro",
+    "descripcion": null,
+    "url": "https://github.com/JahirWH/astro",
+    "lenguaje_principal": "Astro",
+    "lenguajes": {
+      "Astro": 62971,
+      "TypeScript": 38983,
+      "JavaScript": 13362,
+      "CSS": 12613,
+      "MDX": 6287,
+      "Dockerfile": 1375
+    },
+    "tamaño_kb": 579,
+    "creado": "2025-02-17T15:37:02Z",
+    "actualizado": "2025-02-17T15:37:11Z",
+    "rama_default": "main"
+  }
+]

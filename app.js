@@ -1,11 +1,38 @@
+import express from 'express';
+import { promises as fs } from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import dotenv from 'dotenv';
+import fetch from 'node-fetch';
+
+// Configurar __dirname en ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+dotenv.config();
+
+const app = express();
+const PORT = process.env.PORT ;
+
 // Configuración
 const CONFIG = {
-  githubToken: process.env.GITHUB_TOKEN || '', // Token desde variable de entorno
-  reposNames: process.env.REPO_NAMES || '',
-  user: process.env.GITHUB_USER || '' // Usuario desde variable de entorno
+  githubToken: process.env.GITHUB_TOKEN , // Token desde variable de entorno
+  reposNames: process.env.REPO_NAMES ,
+  user: process.env.GITHUB_USER  // Usuario desde variable de entorno
 };
 
 const reposData = [];
+
+// Servir archivos estáticos desde la carpeta public
+app.use(express.static('public'));
+
+// Configurar CORS
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 
 async function fetchGitHubAPI(url) {
   const response = await fetch(url, {
@@ -87,16 +114,38 @@ function renderRepositories() {
   container.innerHTML = html;
 }
 
-async function main() {
+// Ruta para obtener los datos de los repositorios
+app.get('/api/repos', async (req, res) => {
   try {
-    document.getElementById('github-data').innerHTML = '<p>Cargando datos de GitHub...</p>';
-    await processRepositories();
-    renderRepositories();
-  } catch (error) {
-    console.error('Error en la ejecución principal:', error);
-    document.getElementById('github-data').innerHTML = `<p>Error: ${error.message}</p>`;
-  }
-}
+    // Intentar leer el archivo cache.json
+    try {
+      const cache = await fs.readFile('cache.json', 'utf8');
+      const data = JSON.parse(cache);
+      // Si el cache existe y tiene menos de 1 hora, usarlo
+      if (data.timestamp && (Date.now() - data.timestamp) < 3600000) {
+        return res.json(data.repos);
+      }
+    } catch (err) {
+      console.log('No hay cache o está expirado');
+    }
 
-// Ejecutar cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', main);
+    // Si no hay cache o está expirado, obtener datos nuevos
+    await processRepositories();
+    
+    // Guardar en cache
+    await fs.writeFile('cache.json', JSON.stringify({
+      timestamp: Date.now(),
+      repos: reposData
+    }), 'utf8');
+
+    res.json(reposData);
+  } catch (error) {
+    console.error('Error:', error);
+    res.status(500).json({ error: 'Error al obtener los datos de GitHub' });
+  }
+});
+
+// Iniciar el servidor
+app.listen(PORT, () => {
+  console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
+});

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Repositorios de GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f6f8fa;
+        }
+        h1 {
+            color: #24292e;
+            text-align: center;
+        }
+        .repo-card {
+            background-color: white;
+            border: 1px solid #e1e4e8;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+            transition: transform 0.2s ease;
+        }
+        .repo-card:hover {
+            transform: translateY(-3px);
+        }
+        .repo-card h2 {
+            margin-top: 0;
+        }
+        .repo-card a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .repo-card a:hover {
+            text-decoration: underline;
+        }
+        .language-list {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
+        .language-tag {
+            background-color: #f1f8ff;
+            color: #0366d6;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            border: 1px solid #c8e1ff;
+        }
+        .repo-info {
+            color: #586069;
+            font-size: 14px;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            color: #586069;
+        }
+        .error {
+            color: #cb2431;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis Repositorios de GitHub</h1>
+    <div id="repos-container">
+        <div class="loading">Cargando repositorios...</div>
+    </div>
+
+    <script>
+        async function fetchRepositories() {
+            try {
+                const response = await fetch('http://localhost:3000/api/repos');
+                if (!response.ok) {
+                    throw new Error('Error al obtener los datos');
+                }
+                const data = await response.json();
+                displayRepositories(data);
+            } catch (error) {
+                console.error('Error al obtener los repositorios:', error);
+                document.getElementById('repos-container').innerHTML = 
+                    '<div class="error">Error al cargar los repositorios. Por favor, intenta más tarde.</div>';
+            }
+        }
+
+        function formatDate(dateString) {
+            const options = { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            };
+            return new Date(dateString).toLocaleDateString('es-ES', options);
+        }
+
+        function displayRepositories(repos) {
+            const container = document.getElementById('repos-container');
+            if (repos.length === 0) {
+                container.innerHTML = '<div class="error">No se encontraron repositorios</div>';
+                return;
+            }
+
+            container.innerHTML = repos.map(repo => `
+                <div class="repo-card">
+                    <h2><a href="${repo.url}" target="_blank">${repo.nombre}</a></h2>
+                    <p>${repo.descripcion || 'Sin descripción'}</p>
+                    <div class="repo-info">
+                        <p>Lenguaje principal: ${repo.lenguaje_principal || 'No especificado'}</p>
+                        <div class="language-list">
+                            ${Object.keys(repo.lenguajes).map(lang => 
+                                `<span class="language-tag">${lang}</span>`
+                            ).join('')}
+                        </div>
+                        <p>Tamaño: ${(repo.tamaño_kb / 1024).toFixed(2)} MB</p>
+                        <p>Creado: ${formatDate(repo.creado)}</p>
+                        <p>Última actualización: ${formatDate(repo.actualizado)}</p>
+                        <p>Rama principal: ${repo.rama_default}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Cargar repositorios cuando la página se cargue
+        window.onload = fetchRepositories;
+    </script>
+</body>
+</html>

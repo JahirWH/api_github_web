@@ -1,15 +1,29 @@
 # api_github_web
 
-Optiene una lista de nombres y datos basicos de cada repo que escribas o quiera en el .env para usar esa info en tu web con react,node, etc.
+Esta herramienta te permite obtener una lista de nombres y datos básicos de los repositorios de GitHub que especifiques. Puedes usar esta información en tu web con React, Node, etc.
 
-# Como usar?
+## ¿Cómo usarlo?
 
-- Escribe tus propios datos en el .env, utilizara y tendras que generar un tokend en github para que te de mas solicitudes.
+1. **Configura tu archivo `.env`:**  
+   Escribe tus propios datos en el archivo `.env`. Necesitarás generar un token en GitHub para aumentar el límite de solicitudes.
 
-- Llama a la funcion de javacript como una funcion normal que optendra datos
+2. **Obtén los datos:**  
+   Los datos se guardan en un archivo JSON. Puedes usar este archivo directamente en tu frontend haciendo peticiones HTTP al JSON alojado online, sin necesidad de un backend.
 
-- Si usas backen y quieres usar python es lo mismo
+3. **Uso con backend:**  
+   Si prefieres usar un backend (por ejemplo, en Python), el proceso es el mismo.
 
-# run
+## Ejecución
 
-`python3 app.py`
+```bash
+node app.js
+```
+
+```bash
+python3 app.py
+```
+
+## Dependencias
+
+- npm install express dotenv node-fetch
+- npm install nodemon --save-dev
